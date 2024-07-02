@@ -167,3 +167,11 @@ body{
         max-width: 25rem;
     }
 }
+
+/*-------banner---------*/
+
+.header{
+    min-height: 100vh;
+    background: url(../images/ban.jpg) center/cover no-repeat;
+    
+}
