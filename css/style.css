@@ -99,6 +99,32 @@ body{
     display:table ;
 }
 
+.section-center{
+    padding: 4rem 0;
+    width: 85vw;
+    margin: 0 auto ;
+    max-width: 1170px;
+}
+
+.section-title h3{
+    font-family: var(--ff-design);
+    color: var(--clr-secondary);
+    font-size: 2rem;  
+}
+
+.section-title{
+    margin-bottom: 2rem;
+     
+}
+
+@media screen and (min-width:992px) {
+    .section-center{
+        width: 95%;
+        padding: 4rem 1rem;
+    }
+    
+}
+
 /*------- nav bar -------------*/
 
 .nav-btn svg{
@@ -329,6 +355,43 @@ body{
   @media screen and (min-width:1200px) { /*---desktop screen---*/
     .feature{
        width: 25%;
+    }
+    
+   }
+
+   .about-img , .about-info{
+    padding: 2rem 0;
+   }
+
+   .about-picture-container{
+    background-color: var(--clr-primary) ;
+     max-width: 25rem;
+     box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+     border-radius: 5px;
+     overflow: hidden;
+   }
+
+   .about-picture{
+    transition: var(--transition);
+   }
+
+   .about-picture-container:hover .about-picture{
+    transform: scale(1.2);
+    opacity: 0.5;
+   }
+
+   .about-text{
+    max-width:26rem;
+    color: var(--clr-grey-2);
+   }
+
+   @media screen and (min-width:992px) {
+    .about-img,.about-info{
+        float: left;
+        width: 50%;
+    }
+    .about-info{
+        padding: 2rem;
     }
     
    }
