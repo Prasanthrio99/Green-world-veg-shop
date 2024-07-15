@@ -17,10 +17,11 @@
         </label>
     </div>
     <input type="checkbox" id="nav-check">
+    <label for="nav-check" class="overlay"></label>
     <nav class="navbar">
         <div class="navbar-header">
             <h3>green world</h3>
-            <img src="/images/vegetable.png" alt="vvs">
+            <img src="/images/nav.png" alt="vvs">
             <span class="nav-close"> 
                 <label for="nav-check"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
                     <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
@@ -28,11 +29,11 @@
                 </label>
             </span>
             <ul>
-                <li><a href="#" class="nav-link">home</a></li>
-                <li><a href="#" class="nav-link">feature</a></li>
-                <li><a href="#" class="nav-link">about</a></li>
-                <li><a href="#" class="nav-link">product</a></li>
-                <li><a href="#" class="nav-link">contact</a></li> 
+                <li><a href="#header" class="nav-link">home</a></li>
+                <li><a href="#features" class="nav-link">feature</a></li>
+                <li><a href="#about" class="nav-link">about</a></li>
+                <li><a href="#products" class="nav-link">product</a></li>
+                <li><a href="#contact" class="nav-link">contact</a></li> 
             </ul>
         </div>
     </nav>
@@ -41,7 +42,7 @@
     
     <!---header start--->
 
-    <header class="header">
+    <header class="header" id="header">
         <div class="banner">
             <h2>healthy and Fresh Vegetables</h2>
             <h1>Green world Vegetables </h1>
@@ -55,7 +56,7 @@
 
     <!----feature start-->
 
-    <section class="features clearfix">
+    <section class="features clearfix" id="features">
         <div class="feature">
             <span class="feature-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#666666">
@@ -99,7 +100,7 @@
 
     <!---about start-->
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="section-center clearfix">
             <div class="about-img">
                 <div class="about-picture-container ">
@@ -122,5 +123,201 @@
     </section>
 
     <!---about end-->
+
+    <!---products start-->
+
+    <section class="products" id="products">
+        <div class="section-center clearfix">
+            <div class="product-info">
+                <h3>Check Out</h3>
+                <h2>Our Vegetable Items</h2>
+                <p class="product-text">
+                    We take pride in offering a diverse selection of the freshest and highest quality vegetables.
+                    Our leafy greens, such as spinach, lettuce, and kale, are vibrant and nutrient-rich, perfect for salads, smoothies, and a variety of dishes.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="product-inventory clearfix">
+                <div class="product">
+                    <img src="/images/broccoli.jpeg" alt="product" class="product-img">
+                    <h4 class="product-title">Broccoli</h4>
+                    <h4 class="product-price"> &#8377; 100</h4>
+                </div>
+                <div class="product">
+                    <img src="/images/lemon.jpeg" alt="product" class="product-img">
+                    <h4 class="product-title">Lemon</h4>
+                    <h4 class="product-price"> &#8377; 20</h4>
+                </div>
+                <div class="product">
+                    <img src="/images/onion.jpg" alt="product" class="product-img">
+                    <h4 class="product-title">Onion</h4>
+                    <h4 class="product-price"> &#8377; 60 </h4>
+                </div>
+                <!-- <div class="product">
+                    <img src="/images/tomato.jpeg" alt="product" class="product-img">
+                    <h4 class="product-title">Tomato</h4>
+                    <h4 class="product-price"> &#8377; 75</h4>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!----products end-->
+
+    <!---service start-->
+
+    <section class="services" id="services">
+        <div class="section-title services-title">
+            <h3>Explore</h3>
+            <h2>our services</h2>
+        </div>
+        <div class="section-center clearfix">
+            <div class="service-card">
+                 <div class="service-img-container">
+                    <img src="/images/vegetable.png" alt="services" class="service-img">
+                    <span class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                            <path d="M640-80q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170T640-80Zm0-80q66 0 113-47t47-113q0-66-47-113t-113-47q-66 0-113 47t-47 113q0 66 47 113t113 47Zm-480 0q-33 0-56.5-23.5T80-240v-304q0-8 1.5-16t4.5-16l80-184h-6q-17 0-28.5-11.5T120-800v-40q0-17 11.5-28.5T160-880h280q17 0 28.5 11.5T480-840v40q0 17-11.5 28.5T440-760h-6l66 152q-19 10-36 21t-32 25l-84-198h-96l-92 216v304h170q5 21 13.5 41.5T364-160H160Zm480-440q-42 0-71-29t-29-71q0-42 29-71t71-29v200q0-42 29-71t71-29q42 0 71 29t29 71H640Z"/>
+                        </svg>
+                    </span>
+                 </div>
+                 <div class="service-info">
+                    <h4>custom your package</h4>
+                    <p>Our beans and legumes, including green beans, peas, and lentils, are excellent sources.</p>
+                    <a href="#" class="btn service-btn">Read More</a>
+                 </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img-container">
+                   <img src="/images/s2.png" alt="services" class="service-img">
+                   <span class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                        <path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/>
+                    </svg>
+                   </span>
+                </div>
+                <div class="service-info">
+                   <h4>good for helath</h4>
+                   <p>Committed to sustainability, we offer a selection of organic vegetables .</p>
+                   <a href="#" class="btn service-btn">Read More</a>
+                </div>
+           </div>
+           <div class="service-card">
+            <div class="service-img-container">
+               <img src="/images/s3.png" alt="services" class="service-img ">
+               <span class="service-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                    <path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/>
+                </svg>
+               </span>
+            </div>
+            <div class="service-info">
+               <h4>home delivery</h4>
+               <p>all your vegetable needs, and experience
+                 the difference that quality and freshness make. </p>
+               <a href="#" class="btn service-btn">Read More</a>
+            </div>
+       </div>
+        </div>
+    </section>
+
+    <!----service end-->
+
+    <!----contact start-->
+
+    <section class="contact" id="contact">
+        <div class="section-center clearfix">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h4 class="contact-title">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#666666">
+                                <path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/>
+                            </svg>
+                        </span>
+                            address
+                    </h4>
+                        <div class="contact-text">
+                            14/3, Nadhakadu <br>
+                             vennandhur-637 505
+                        </div>
+                </div>
+                <div class="contact-item">
+                    <h4 class="contact-title">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#666666">
+                                <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/>
+                            </svg>
+                        </span>
+                            Email
+                    </h4>
+                        <div class="contact-text">
+                            prasanthraja097@gmail.com
+                        </div>
+                </div>
+                <div class="contact-item">
+                    <h4 class="contact-title">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#666666">
+                                <path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/>
+                            </svg>
+                        </span>
+                            phone
+                    </h4>
+                        <div class="contact-text">
+                            6369422899
+                        </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>contact us</h3>
+                <form action="#">
+                    <div class="form-group">
+                        <input type="text" class="form-control" required>
+                        <label for="" class="form-label">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" required>
+                        <label for="" class="form-label">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" required></textarea>
+                        <label for="" class="form-label">Message</label>
+                    </div>
+                    <button class="btn submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-----contact end-->
+
+    <!----footer start-->
+
+    <footer class="footer">
+        <div class="section-center">
+            <div class="social-icons">
+                <a href="#" class="social-icon" >
+                    <?xml version="1.0"?>
+                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px">   
+                         <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"/>
+                    </svg>
+                </a>
+                <a href="#" class="social-icon" >
+                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px">
+                        <path d="M 15 2 C 7.832 2 2 7.832 2 15 C 2 22.168 7.832 28 15 28 C 22.168 28 28 22.168 28 15 C 28 7.832 22.168 2 15 2 z M 11.666016 6 L 18.332031 6 C 21.457031 6 24 8.5420156 24 11.666016 L 24 18.332031 C 24 21.457031 21.457984 24 18.333984 24 L 11.667969 24 C 8.5429688 24 6 21.457984 6 18.333984 L 6 11.667969 C 6 8.5429688 8.5420156 6 11.666016 6 z M 11.666016 8 C 9.6450156 8 8 9.6459688 8 11.667969 L 8 18.333984 C 8 20.354984 9.6459688 22 11.667969 22 L 18.333984 22 C 20.354984 22 22 20.354031 22 18.332031 L 22 11.666016 C 22 9.6450156 20.354031 8 18.332031 8 L 11.666016 8 z M 19.667969 9.6660156 C 20.035969 9.6660156 20.333984 9.9640312 20.333984 10.332031 C 20.333984 10.700031 20.035969 11 19.667969 11 C 19.299969 11 19 10.700031 19 10.332031 C 19 9.9640312 19.299969 9.6660156 19.667969 9.6660156 z M 15 10 C 17.757 10 20 12.243 20 15 C 20 17.757 17.757 20 15 20 C 12.243 20 10 17.757 10 15 C 10 12.243 12.243 10 15 10 z M 15 12 A 3 3 0 0 0 15 18 A 3 3 0 0 0 15 12 z"/>
+                    </svg>
+                </a>
+                <a href="#" class="social-icon" >
+                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px">
+                        <path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"/>
+                    </svg>
+                </a>
+            </div>
+            <h4 class="footer-text">&copy; 2024 <span class="company">Green world</span> all rights reserved </h4>
+        </div>
+    </footer>
+
+    <!-----footer end -->
 </body>
 </html>
